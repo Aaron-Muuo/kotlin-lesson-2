@@ -114,4 +114,12 @@ fun main(args: Array<String>) {
     books = 6
 
     books.dec()
+
+    //user input
+
+    var scanner = Scanner(System.`in`)
+    println("Enter your name: ")
+    var user = scanner.nextLine()
+
+    println("Your username is $user")
 }
